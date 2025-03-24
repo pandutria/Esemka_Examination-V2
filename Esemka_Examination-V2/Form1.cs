@@ -13,7 +13,7 @@ namespace Esemka_Examination_V2
 {
     public partial class FormLogin : Form
     {
-        ESEMKA_EXAMINATIONEntities db = new ESEMKA_EXAMINATIONEntities();
+        DataBaseDataContext db = new DataBaseDataContext();
         public FormLogin()
         {
             InitializeComponent();
