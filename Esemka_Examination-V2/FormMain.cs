@@ -37,6 +37,13 @@ namespace Esemka_Examination_V2
 
         private void btnRoom_Click(object sender, EventArgs e)
         {
+            panelContainer.Controls.Clear();
+            var f = new FormRoom();
+            f.TopLevel = false;
+
+            panelContainer.Controls.Add(f);
+            f.Show();
+
             btnRoom.BackColor = Color.FromArgb(251, 168, 52);
 
             btnUser.BackColor = Color.DodgerBlue;

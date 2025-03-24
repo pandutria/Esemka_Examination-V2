@@ -205,7 +205,7 @@
             this.tbSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbSearch.TextMarginBottom = 0;
             this.tbSearch.TextMarginLeft = 5;
-            this.tbSearch.TextMarginTop = 1;
+            this.tbSearch.TextMarginTop = 0;
             this.tbSearch.TextPlaceholder = "Write name...";
             this.tbSearch.UseSystemPasswordChar = false;
             this.tbSearch.WordWrap = true;
@@ -281,7 +281,7 @@
             this.tbId.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbId.TextMarginBottom = 0;
             this.tbId.TextMarginLeft = 5;
-            this.tbId.TextMarginTop = 1;
+            this.tbId.TextMarginTop = 0;
             this.tbId.TextPlaceholder = "ID";
             this.tbId.UseSystemPasswordChar = false;
             this.tbId.WordWrap = true;
@@ -375,7 +375,7 @@
             this.tbUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbUsername.TextMarginBottom = 0;
             this.tbUsername.TextMarginLeft = 5;
-            this.tbUsername.TextMarginTop = 1;
+            this.tbUsername.TextMarginTop = 0;
             this.tbUsername.TextPlaceholder = "Username";
             this.tbUsername.UseSystemPasswordChar = false;
             this.tbUsername.WordWrap = true;
@@ -450,7 +450,7 @@
             this.tbPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbPassword.TextMarginBottom = 0;
             this.tbPassword.TextMarginLeft = 5;
-            this.tbPassword.TextMarginTop = 1;
+            this.tbPassword.TextMarginTop = 0;
             this.tbPassword.TextPlaceholder = "Password";
             this.tbPassword.UseSystemPasswordChar = false;
             this.tbPassword.WordWrap = true;
@@ -525,7 +525,7 @@
             this.tbName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbName.TextMarginBottom = 0;
             this.tbName.TextMarginLeft = 5;
-            this.tbName.TextMarginTop = 1;
+            this.tbName.TextMarginTop = 0;
             this.tbName.TextPlaceholder = "Name";
             this.tbName.UseSystemPasswordChar = false;
             this.tbName.WordWrap = true;
@@ -600,7 +600,7 @@
             this.tbAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbAddress.TextMarginBottom = 0;
             this.tbAddress.TextMarginLeft = 5;
-            this.tbAddress.TextMarginTop = 1;
+            this.tbAddress.TextMarginTop = 0;
             this.tbAddress.TextPlaceholder = "Address";
             this.tbAddress.UseSystemPasswordChar = false;
             this.tbAddress.WordWrap = true;
@@ -675,7 +675,7 @@
             this.tbPhone.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbPhone.TextMarginBottom = 0;
             this.tbPhone.TextMarginLeft = 5;
-            this.tbPhone.TextMarginTop = 1;
+            this.tbPhone.TextMarginTop = 0;
             this.tbPhone.TextPlaceholder = "Phone";
             this.tbPhone.UseSystemPasswordChar = false;
             this.tbPhone.WordWrap = true;
@@ -750,7 +750,7 @@
             this.tbEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbEmail.TextMarginBottom = 0;
             this.tbEmail.TextMarginLeft = 5;
-            this.tbEmail.TextMarginTop = 1;
+            this.tbEmail.TextMarginTop = 0;
             this.tbEmail.TextPlaceholder = "Email";
             this.tbEmail.UseSystemPasswordChar = false;
             this.tbEmail.WordWrap = true;

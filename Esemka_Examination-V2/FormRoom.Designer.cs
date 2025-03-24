@@ -1,6 +1,6 @@
 ﻿namespace Esemka_Examination_V2
 {
-    partial class FormType
+    partial class FormRoom
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormType));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRoom));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -58,7 +58,7 @@
             this.btnUpdate = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.dgvData = new System.Windows.Forms.DataGridView();
             this.btnInsert = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.tbName = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.tbCapacity = new Bunifu.UI.WinForms.BunifuTextBox();
             this.tbCode = new Bunifu.UI.WinForms.BunifuTextBox();
             this.tbId = new Bunifu.UI.WinForms.BunifuTextBox();
             this.tbSearch = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -116,7 +116,7 @@
             this.btnCancel.IdleIconLeftImage = null;
             this.btnCancel.IdleIconRightImage = null;
             this.btnCancel.IndicateFocus = false;
-            this.btnCancel.Location = new System.Drawing.Point(421, 484);
+            this.btnCancel.Location = new System.Drawing.Point(422, 485);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnCancel.OnDisabledState.BorderRadius = 35;
@@ -151,7 +151,7 @@
             this.btnCancel.OnPressedState.IconLeftImage = null;
             this.btnCancel.OnPressedState.IconRightImage = null;
             this.btnCancel.Size = new System.Drawing.Size(145, 42);
-            this.btnCancel.TabIndex = 48;
+            this.btnCancel.TabIndex = 60;
             this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnCancel.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnCancel.TextMarginLeft = 0;
@@ -208,7 +208,7 @@
             this.btnSave.IdleIconLeftImage = null;
             this.btnSave.IdleIconRightImage = null;
             this.btnSave.IndicateFocus = false;
-            this.btnSave.Location = new System.Drawing.Point(421, 428);
+            this.btnSave.Location = new System.Drawing.Point(422, 429);
             this.btnSave.Name = "btnSave";
             this.btnSave.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnSave.OnDisabledState.BorderRadius = 35;
@@ -243,7 +243,7 @@
             this.btnSave.OnPressedState.IconLeftImage = null;
             this.btnSave.OnPressedState.IconRightImage = null;
             this.btnSave.Size = new System.Drawing.Size(145, 42);
-            this.btnSave.TabIndex = 47;
+            this.btnSave.TabIndex = 59;
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSave.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnSave.TextMarginLeft = 0;
@@ -300,7 +300,7 @@
             this.btnDelete.IdleIconLeftImage = null;
             this.btnDelete.IdleIconRightImage = null;
             this.btnDelete.IndicateFocus = false;
-            this.btnDelete.Location = new System.Drawing.Point(421, 544);
+            this.btnDelete.Location = new System.Drawing.Point(421, 545);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnDelete.OnDisabledState.BorderRadius = 35;
@@ -335,7 +335,7 @@
             this.btnDelete.OnPressedState.IconLeftImage = null;
             this.btnDelete.OnPressedState.IconRightImage = null;
             this.btnDelete.Size = new System.Drawing.Size(145, 42);
-            this.btnDelete.TabIndex = 46;
+            this.btnDelete.TabIndex = 58;
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnDelete.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnDelete.TextMarginLeft = 0;
@@ -392,7 +392,7 @@
             this.btnUpdate.IdleIconLeftImage = null;
             this.btnUpdate.IdleIconRightImage = null;
             this.btnUpdate.IndicateFocus = false;
-            this.btnUpdate.Location = new System.Drawing.Point(421, 484);
+            this.btnUpdate.Location = new System.Drawing.Point(421, 485);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnUpdate.OnDisabledState.BorderRadius = 35;
@@ -427,7 +427,7 @@
             this.btnUpdate.OnPressedState.IconLeftImage = null;
             this.btnUpdate.OnPressedState.IconRightImage = null;
             this.btnUpdate.Size = new System.Drawing.Size(145, 42);
-            this.btnUpdate.TabIndex = 45;
+            this.btnUpdate.TabIndex = 57;
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnUpdate.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnUpdate.TextMarginLeft = 0;
@@ -458,13 +458,13 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvData.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvData.Location = new System.Drawing.Point(43, 162);
+            this.dgvData.Location = new System.Drawing.Point(43, 163);
             this.dgvData.Name = "dgvData";
             this.dgvData.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvData.RowHeadersWidth = 51;
             this.dgvData.RowTemplate.Height = 30;
             this.dgvData.Size = new System.Drawing.Size(854, 235);
-            this.dgvData.TabIndex = 44;
+            this.dgvData.TabIndex = 56;
             this.dgvData.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellClick);
             // 
             // btnInsert
@@ -516,7 +516,7 @@
             this.btnInsert.IdleIconLeftImage = null;
             this.btnInsert.IdleIconRightImage = null;
             this.btnInsert.IndicateFocus = false;
-            this.btnInsert.Location = new System.Drawing.Point(421, 428);
+            this.btnInsert.Location = new System.Drawing.Point(421, 429);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnInsert.OnDisabledState.BorderRadius = 35;
@@ -551,7 +551,7 @@
             this.btnInsert.OnPressedState.IconLeftImage = null;
             this.btnInsert.OnPressedState.IconRightImage = null;
             this.btnInsert.Size = new System.Drawing.Size(145, 42);
-            this.btnInsert.TabIndex = 43;
+            this.btnInsert.TabIndex = 55;
             this.btnInsert.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnInsert.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
             this.btnInsert.TextMarginLeft = 0;
@@ -559,80 +559,80 @@
             this.btnInsert.UseDefaultRadiusAndThickness = true;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
-            // tbName
+            // tbCapacity
             // 
-            this.tbName.AcceptsReturn = false;
-            this.tbName.AcceptsTab = false;
-            this.tbName.AnimationSpeed = 200;
-            this.tbName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.tbName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.tbName.AutoSizeHeight = true;
-            this.tbName.BackColor = System.Drawing.Color.Transparent;
-            this.tbName.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbName.BackgroundImage")));
-            this.tbName.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.tbName.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.tbName.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.tbName.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tbName.BorderRadius = 15;
-            this.tbName.BorderThickness = 1;
-            this.tbName.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.tbName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbName.DefaultFont = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbName.DefaultText = "";
-            this.tbName.FillColor = System.Drawing.Color.White;
-            this.tbName.HideSelection = true;
-            this.tbName.IconLeft = null;
-            this.tbName.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbName.IconPadding = 12;
-            this.tbName.IconRight = null;
-            this.tbName.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbName.Lines = new string[0];
-            this.tbName.Location = new System.Drawing.Point(43, 556);
-            this.tbName.MaxLength = 32767;
-            this.tbName.MinimumSize = new System.Drawing.Size(1, 1);
-            this.tbName.Modified = false;
-            this.tbName.Multiline = false;
-            this.tbName.Name = "tbName";
+            this.tbCapacity.AcceptsReturn = false;
+            this.tbCapacity.AcceptsTab = false;
+            this.tbCapacity.AnimationSpeed = 200;
+            this.tbCapacity.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.tbCapacity.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.tbCapacity.AutoSizeHeight = true;
+            this.tbCapacity.BackColor = System.Drawing.Color.Transparent;
+            this.tbCapacity.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbCapacity.BackgroundImage")));
+            this.tbCapacity.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.tbCapacity.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.tbCapacity.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.tbCapacity.BorderColorIdle = System.Drawing.Color.Silver;
+            this.tbCapacity.BorderRadius = 15;
+            this.tbCapacity.BorderThickness = 1;
+            this.tbCapacity.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.tbCapacity.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbCapacity.DefaultFont = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbCapacity.DefaultText = "";
+            this.tbCapacity.FillColor = System.Drawing.Color.White;
+            this.tbCapacity.HideSelection = true;
+            this.tbCapacity.IconLeft = null;
+            this.tbCapacity.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbCapacity.IconPadding = 12;
+            this.tbCapacity.IconRight = null;
+            this.tbCapacity.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbCapacity.Lines = new string[0];
+            this.tbCapacity.Location = new System.Drawing.Point(43, 557);
+            this.tbCapacity.MaxLength = 32767;
+            this.tbCapacity.MinimumSize = new System.Drawing.Size(1, 1);
+            this.tbCapacity.Modified = false;
+            this.tbCapacity.Multiline = false;
+            this.tbCapacity.Name = "tbCapacity";
             stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
             stateProperties1.FillColor = System.Drawing.Color.Empty;
             stateProperties1.ForeColor = System.Drawing.Color.Empty;
             stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbName.OnActiveState = stateProperties1;
+            this.tbCapacity.OnActiveState = stateProperties1;
             stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.tbName.OnDisabledState = stateProperties2;
+            this.tbCapacity.OnDisabledState = stateProperties2;
             stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties3.FillColor = System.Drawing.Color.Empty;
             stateProperties3.ForeColor = System.Drawing.Color.Empty;
             stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbName.OnHoverState = stateProperties3;
+            this.tbCapacity.OnHoverState = stateProperties3;
             stateProperties4.BorderColor = System.Drawing.Color.Silver;
             stateProperties4.FillColor = System.Drawing.Color.White;
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbName.OnIdleState = stateProperties4;
-            this.tbName.Padding = new System.Windows.Forms.Padding(3);
-            this.tbName.PasswordChar = '\0';
-            this.tbName.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.tbName.PlaceholderText = "Name";
-            this.tbName.ReadOnly = false;
-            this.tbName.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbName.SelectedText = "";
-            this.tbName.SelectionLength = 0;
-            this.tbName.SelectionStart = 0;
-            this.tbName.ShortcutsEnabled = true;
-            this.tbName.Size = new System.Drawing.Size(270, 45);
-            this.tbName.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tbName.TabIndex = 36;
-            this.tbName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.tbName.TextMarginBottom = 0;
-            this.tbName.TextMarginLeft = 5;
-            this.tbName.TextMarginTop = 0;
-            this.tbName.TextPlaceholder = "Name";
-            this.tbName.UseSystemPasswordChar = false;
-            this.tbName.WordWrap = true;
+            this.tbCapacity.OnIdleState = stateProperties4;
+            this.tbCapacity.Padding = new System.Windows.Forms.Padding(3);
+            this.tbCapacity.PasswordChar = '\0';
+            this.tbCapacity.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.tbCapacity.PlaceholderText = "Capacity";
+            this.tbCapacity.ReadOnly = false;
+            this.tbCapacity.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbCapacity.SelectedText = "";
+            this.tbCapacity.SelectionLength = 0;
+            this.tbCapacity.SelectionStart = 0;
+            this.tbCapacity.ShortcutsEnabled = true;
+            this.tbCapacity.Size = new System.Drawing.Size(270, 45);
+            this.tbCapacity.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.tbCapacity.TabIndex = 54;
+            this.tbCapacity.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.tbCapacity.TextMarginBottom = 0;
+            this.tbCapacity.TextMarginLeft = 5;
+            this.tbCapacity.TextMarginTop = 0;
+            this.tbCapacity.TextPlaceholder = "Capacity";
+            this.tbCapacity.UseSystemPasswordChar = false;
+            this.tbCapacity.WordWrap = true;
             // 
             // tbCode
             // 
@@ -662,7 +662,7 @@
             this.tbCode.IconRight = null;
             this.tbCode.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbCode.Lines = new string[0];
-            this.tbCode.Location = new System.Drawing.Point(43, 492);
+            this.tbCode.Location = new System.Drawing.Point(43, 493);
             this.tbCode.MaxLength = 32767;
             this.tbCode.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbCode.Modified = false;
@@ -700,7 +700,7 @@
             this.tbCode.ShortcutsEnabled = true;
             this.tbCode.Size = new System.Drawing.Size(270, 45);
             this.tbCode.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tbCode.TabIndex = 35;
+            this.tbCode.TabIndex = 53;
             this.tbCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbCode.TextMarginBottom = 0;
             this.tbCode.TextMarginLeft = 5;
@@ -708,7 +708,6 @@
             this.tbCode.TextPlaceholder = "Code";
             this.tbCode.UseSystemPasswordChar = false;
             this.tbCode.WordWrap = true;
-            this.tbCode.TextChanged += new System.EventHandler(this.tbCode_TextChanged);
             // 
             // tbId
             // 
@@ -738,7 +737,7 @@
             this.tbId.IconRight = null;
             this.tbId.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbId.Lines = new string[0];
-            this.tbId.Location = new System.Drawing.Point(43, 428);
+            this.tbId.Location = new System.Drawing.Point(43, 429);
             this.tbId.MaxLength = 32767;
             this.tbId.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbId.Modified = false;
@@ -776,7 +775,7 @@
             this.tbId.ShortcutsEnabled = true;
             this.tbId.Size = new System.Drawing.Size(270, 45);
             this.tbId.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tbId.TabIndex = 32;
+            this.tbId.TabIndex = 52;
             this.tbId.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbId.TextMarginBottom = 0;
             this.tbId.TextMarginLeft = 5;
@@ -813,7 +812,7 @@
             this.tbSearch.IconRight = ((System.Drawing.Image)(resources.GetObject("tbSearch.IconRight")));
             this.tbSearch.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbSearch.Lines = new string[0];
-            this.tbSearch.Location = new System.Drawing.Point(627, 96);
+            this.tbSearch.Location = new System.Drawing.Point(627, 97);
             this.tbSearch.MaxLength = 32767;
             this.tbSearch.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbSearch.Modified = false;
@@ -851,7 +850,7 @@
             this.tbSearch.ShortcutsEnabled = true;
             this.tbSearch.Size = new System.Drawing.Size(270, 45);
             this.tbSearch.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tbSearch.TabIndex = 31;
+            this.tbSearch.TabIndex = 51;
             this.tbSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.tbSearch.TextMarginBottom = 0;
             this.tbSearch.TextMarginLeft = 5;
@@ -867,23 +866,23 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Poppins SemiBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.label3.Location = new System.Drawing.Point(474, 108);
+            this.label3.Location = new System.Drawing.Point(474, 109);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 26);
-            this.label3.TabIndex = 30;
-            this.label3.Text = "Search by name";
+            this.label3.Size = new System.Drawing.Size(130, 26);
+            this.label3.TabIndex = 50;
+            this.label3.Text = "Search by code";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(336, 31);
+            this.label1.Location = new System.Drawing.Point(336, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 50);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "Manage Type";
+            this.label1.Size = new System.Drawing.Size(231, 50);
+            this.label1.TabIndex = 49;
+            this.label1.Text = "Manage Room";
             // 
-            // FormType
+            // FormRoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -895,16 +894,16 @@
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.dgvData);
             this.Controls.Add(this.btnInsert);
-            this.Controls.Add(this.tbName);
+            this.Controls.Add(this.tbCapacity);
             this.Controls.Add(this.tbCode);
             this.Controls.Add(this.tbId);
             this.Controls.Add(this.tbSearch);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormType";
-            this.Text = "FormType";
-            this.Load += new System.EventHandler(this.FormType_Load);
+            this.Name = "FormRoom";
+            this.Text = "FormRoom";
+            this.Load += new System.EventHandler(this.FormRoom_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -919,7 +918,7 @@
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnUpdate;
         private System.Windows.Forms.DataGridView dgvData;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnInsert;
-        private Bunifu.UI.WinForms.BunifuTextBox tbName;
+        private Bunifu.UI.WinForms.BunifuTextBox tbCapacity;
         private Bunifu.UI.WinForms.BunifuTextBox tbCode;
         private Bunifu.UI.WinForms.BunifuTextBox tbId;
         private Bunifu.UI.WinForms.BunifuTextBox tbSearch;
