@@ -171,5 +171,34 @@ namespace Esemka_Examination_V2
         {
             
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (tbId.Text == "")
+            {
+                Support.msw("Click row !!!");
+                return;
+            }
+
+            var dialog = MessageBox.Show("Are you sure want to delete this data?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialog == DialogResult.Yes)
+            {
+                var query = db.types.First(x => x.id == Convert.ToInt32(tbId.Text));
+
+                query.deleted_at = DateTime.Now;
+                db.SubmitChanges();
+                showData();
+                enableAndVisible(true);
+                Support.clearField(this);
+                Support.msi("Delete data success");
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            enableAndVisible(true);
+            Support.clearField(this);
+        }
     }
 }
