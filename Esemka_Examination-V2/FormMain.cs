@@ -12,9 +12,12 @@ namespace Esemka_Examination_V2
 {
     public partial class FormMain : Form
     {
-        public FormMain()
+        string username;
+        public FormMain(string username)
         {
             InitializeComponent();
+            this.username = username;
+            lblWelcome.Text = "Welcome, " + username;
         }
 
         private void btnType_Click(object sender, EventArgs e)
@@ -116,6 +119,13 @@ namespace Esemka_Examination_V2
 
         private void btnViewCase_Click(object sender, EventArgs e)
         {
+            panelContainer.Controls.Clear();
+            var f = new FormViewCase();
+            f.TopLevel = false;
+
+            panelContainer.Controls.Add(f);
+            f.Show();
+
             btnViewCase.BackColor = Color.FromArgb(251, 168, 52);
 
             btnUser.BackColor = Color.DodgerBlue;
@@ -127,6 +137,13 @@ namespace Esemka_Examination_V2
 
         private void btnNewCase_Click(object sender, EventArgs e)
         {
+            panelContainer.Controls.Clear();
+            var f = new FormNewCase();  
+            f.TopLevel = false;
+
+            panelContainer.Controls.Add(f);
+            f.Show();
+
             btnNewCase.BackColor = Color.FromArgb(251, 168, 52);
 
             btnUser.BackColor = Color.DodgerBlue;
@@ -145,6 +162,11 @@ namespace Esemka_Examination_V2
             btnNewCase.BackColor = Color.DodgerBlue;
             btnViewCase.BackColor = Color.DodgerBlue;
             btnType.BackColor = Color.DodgerBlue;
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

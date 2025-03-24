@@ -60,7 +60,7 @@ namespace Esemka_Examination_V2
             if (query != null)
             {
                 user = query;
-                new FormMain().Show();
+                new FormMain(query.name).Show();
                 Hide();
             } else
             {

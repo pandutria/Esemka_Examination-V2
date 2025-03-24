@@ -46,6 +46,11 @@ namespace Esemka_Examination_V2
                 {
                     ((ComboBox)clear).SelectedIndex = 0;
                 }
+
+                if (clear is DataGridView)
+                {
+                    ((DataGridView)clear).Rows.Clear();
+                }
             }
         }
 

@@ -294,6 +294,18 @@
     <Compile Include="FormMDI.Designer.cs">
       <DependentUpon>FormMDI.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNewCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewCase.Designer.cs">
+      <DependentUpon>FormNewCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewQuestion.Designer.cs">
+      <DependentUpon>FormNewQuestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRoom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -329,6 +341,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMDI.resx">
       <DependentUpon>FormMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewCase.resx">
+      <DependentUpon>FormNewCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewQuestion.resx">
+      <DependentUpon>FormNewQuestion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRoom.resx">
       <DependentUpon>FormRoom.cs</DependentUpon>
