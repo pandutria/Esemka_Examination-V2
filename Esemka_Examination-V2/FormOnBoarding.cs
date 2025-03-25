@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Esemka_Examination_V2
 {
-    public partial class FormMDI : Form
+    public partial class FormMain : Form
     {
-        public FormMDI()
+        public FormMain()
         {
             InitializeComponent();
             Support.enableField(this);
@@ -41,7 +41,7 @@ namespace Esemka_Examination_V2
 
         private void FormMDI_Load(object sender, EventArgs e)
         {
-            
+            Support.enableField(this);
         }
     }
 }

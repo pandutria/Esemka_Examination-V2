@@ -155,6 +155,13 @@ namespace Esemka_Examination_V2
 
         private void btnSchedule_Click(object sender, EventArgs e)
         {
+            panelContainer.Controls.Clear();
+            var f = new FormSchedule();
+            f.TopLevel = false;
+
+            panelContainer.Controls.Add(f);
+            f.Show();
+
             btnSchedule.BackColor = Color.FromArgb(251, 168, 52);
 
             btnUser.BackColor = Color.DodgerBlue;

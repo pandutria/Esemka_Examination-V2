@@ -3,6 +3,7 @@ using Bunifu.UI.WinForms.BunifuButton;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,26 @@ namespace Esemka_Examination_V2
                 {
                     ((BunifuButton)enable).Enabled = true;
                 }
+
+                if (enable is BunifuGroupBox)
+                {
+                    ((BunifuGroupBox)enable).Enabled = false;
+                }
+
+                if (enable is BunifuGroupBox)
+                {
+                    ((BunifuGroupBox)enable).Enabled = true;
+                }
+
+                if (enable is BunifuPanel)
+                {
+                    ((BunifuPanel)enable).Enabled = false;
+                }
+
+                if (enable is BunifuPanel)
+                {
+                    ((BunifuPanel)enable).Enabled = true;
+                }
             }
         }
 
@@ -51,6 +72,8 @@ namespace Esemka_Examination_V2
                 {
                     ((DataGridView)clear).Rows.Clear();
                 }
+
+                
             }
         }
 

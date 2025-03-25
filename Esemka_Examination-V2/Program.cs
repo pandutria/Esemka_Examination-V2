@@ -16,7 +16,7 @@ namespace Esemka_Examination_V2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMDI());
+            Application.Run(new FormMain());
         }
     }
 }

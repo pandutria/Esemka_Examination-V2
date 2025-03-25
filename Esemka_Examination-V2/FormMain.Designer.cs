@@ -80,7 +80,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1314, 71);
+            this.panel1.Size = new System.Drawing.Size(1462, 71);
             this.panel1.TabIndex = 0;
             // 
             // lblWelcome
@@ -103,7 +103,7 @@
             this.bunifuPictureBox1.BorderRadius = 18;
             this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
             this.bunifuPictureBox1.IsCircle = true;
-            this.bunifuPictureBox1.Location = new System.Drawing.Point(15, 15);
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(18, 15);
             this.bunifuPictureBox1.Name = "bunifuPictureBox1";
             this.bunifuPictureBox1.Size = new System.Drawing.Size(37, 37);
             this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -420,7 +420,7 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(217, 71);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1097, 838);
+            this.panelContainer.Size = new System.Drawing.Size(1245, 838);
             this.panelContainer.TabIndex = 2;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
             // 
@@ -429,7 +429,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1314, 909);
+            this.ClientSize = new System.Drawing.Size(1462, 909);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
